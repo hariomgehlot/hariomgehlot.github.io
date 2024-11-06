@@ -26,15 +26,17 @@ const { title } = Astro.props;
       client:idle
       id="tsparticlesfullpage"
       background="transparent"
-      minSize={0.6}
+      minSize={0.8}
       maxSize={1.4}
-      opacity={0.2}
-      particleDensity={100}
+      opacity={0.3}
+      particleDensity={200}
       className="w-full h-full fixed z-0"
       particleColor="#FFFFFF"
     />
     <slot />
     <script src="../scripts/main.ts"></script>
+    <script src="../scripts/phoenix/app.ts"></script>
+    <div id="container3D"></div>
   </body>
 
   <style is:global>
@@ -42,6 +44,12 @@ const { title } = Astro.props;
       font-family: system-ui, sans-serif;
       background-size: 224px;
       font-size: 1.125rem;
+    }
+    #container3D {
+      position: fixed;
+      inset: 0;
+      z-index: 10000;
+      pointer-events: none;
     }
   </style>
 </html>

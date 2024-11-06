@@ -188,10 +188,10 @@ const SparklesCore = (props: ParticlesProps) => {
                 drift: 0,
                 enable: true,
                 gravity: {
-                  acceleration: 9.81,
-                  enable: false,
+                  acceleration: 0.81,
+                  enable: true,
                   inverse: false,
-                  maxSpeed: 50,
+                  maxSpeed: 6,
                 },
                 path: {
                   clamp: true,
@@ -273,7 +273,7 @@ const SparklesCore = (props: ParticlesProps) => {
               size: {
                 value: {
                   min: minSize || 1,
-                  max: maxSize || 3,
+                  max: maxSize || 7,
                 },
                 animation: {
                   count: 0,
