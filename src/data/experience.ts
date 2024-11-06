@@ -27,7 +27,7 @@ export const EXPERIENCE: ExperienceProp[] = [
     company: "Rakuten Symphony",
     companyUrl: "https://symphony.rakuten.com",
     description:
-      "Designed and architected Rakuten's multiple projects, utilizing technologies such as Angular, RxJS, Single-Spa, TypeScript, WebSocket, Git, Express.js, HTML, Angular Material, and Themes. Worked on integrating with the Stripe subscription system and collaborated closely with designers to implement pixel-perfect layouts and user flows using Angular CLI.",
+      "Developed and maintained Rakuten's multiple projects, using technologies such as Angular, RxJS, Single-Spa, TypeScript, WebSocket, Git, Express.js, HTML, Angular Material, and Themes. Collaborated with designers to implement pixel-perfect layouts and user flows using Angular CLI, and integrated with Stripe subscription system.",
     technologies: [
       "Angular",
       "RxJS",

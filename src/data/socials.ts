@@ -16,12 +16,7 @@ export const SOCIALS = [
   },
   {
     name: "Twitter",
-    url: "https://twitter.com/rusin_vadim",
+    url: "https://x.com/hariomg42",
     icon: IconTwitter,
-  },
-  {
-    name: "Dribbble",
-    url: "https://dribbble.com/iamvr",
-    icon: IconDribbble,
   },
 ];
